@@ -9,11 +9,11 @@ def rectarea(request):
         l = request.POST.get('Intensity','0')
         b = request.POST.get('resistance','0')
         print('request=',request)
-        print('Length=',l)
-        print('Breadth=',b)
+        print('Intensity=',l)
+        print('resistance=',b)
         p= (int(l)**2) * int(b)
         context['p'] =p
         context['l'] = l
         context['b'] = b
-        print('Area=',p)
+        print('Power=',p)
     return render(request,'mathapp/math.html',context)

@@ -138,7 +138,7 @@ urlpatterns = [
 
 
 ## SERVER SIDE PROCESSING:
-![alt text](6.png)
+![alt text](9.png)
 
 ## HOMEPAGE:
 ![alt text](8.jpeg)
